@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KTIntro Bot – Privacy Policy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; padding: 0 1em; }
+    h1,h2,h3 { color: #2c3e50; }
+    a { color: #1e90ff; }
+  </style>
+</head>
+<body>
+  <h1>KTIntro Bot – Privacy Policy</h1>
+  <p><strong>Last updated:</strong> May 12, 2025</p>
+
+  <h2>1. Introduction</h2>
+  <p>Your privacy matters. This policy explains what data KTIntro collects, how it is used, and your rights.</p>
+
+  <h2>2. Data We Collect</h2>
+  <ul>
+    <li><strong>Guild Configuration:</strong> Guild ID, channel ID, and question templates (JSON).</li>
+    <li><strong>Interaction Data:</strong> When users click buttons or submit modals, Discord provides their username, discriminator, and responses—but we do <em>not</em> store these responses beyond posting the embed.</li>
+  </ul>
+
+  <h2>3. How We Use Data</h2>
+  <ul>
+    <li>To render introduction templates and post them in your server’s channel.</li>
+    <li>To persist per-server setup so the Bot “remembers” your custom questions.</li>
+  </ul>
+
+  <h2>4. Data Retention & Deletion</h2>
+  <p>All configuration data is stored locally in an SQLite database on the Bot host. No personal user data (e.g. user IDs, responses) is stored long-term. When the Bot is removed from a server, its <code>on_guild_remove</code> handler automatically deletes that server’s configuration row.</p>
+
+  <h2>5. Third-Party Services</h2>
+  <p>KTIntro does not send data to any external analytics or tracking services.</p>
+
+  <h2>6. Security</h2>
+  <p>We follow industry-standard best practices to keep our database and code secure. However, no system is 100% secure—use the Bot at your own risk.</p>
+
+  <h2>7. Children’s Privacy</h2>
+  <p>The Bot is not directed at children under 13. We do not knowingly collect data from anyone under 13.</p>
+
+  <h2>8. Changes to this Policy</h2>
+  <p>We may modify this policy at any time; changes take effect when posted at this URL.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>For questions, email <a href="mailto:support@ktgaming.com">support@ktgaming.com</a> or join our <a href="https://discord.gg/3PTMf8U3Gx">support server</a>.</p>
+</body>
+</html>
